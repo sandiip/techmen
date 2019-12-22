@@ -46,13 +46,20 @@
     max-height: 30%;
     overflow: auto;
   }
+  .location {
+    box-shadow: 0px 0px 3px 2px #e3843a6b;
+    margin-top: 5px;
+    text-align: center;
+}
   .locationContainer{
       width: 100%;
   }
-  .locationimg{
-      width: 100px;
-      height: 100px;      
-  }
+  
+  .locationimg img {
+    width: 100%;
+    border-radius: 69%;
+    padding: 15px;
+}
   .popup h4{
     color: #ffffff;
     margin: 40px 0;
@@ -60,3 +67,29 @@
     background: #e3843a;
     padding: 10px;
   }
+
+
+
+
+  /* login*/
+  .form-login{
+    padding: 1em;
+    min-width: 280px;
+  }
+  .dropdown.logininItem {
+    list-style: none;
+    border: 1px solid #f69323;
+    padding: 2px 18px;
+    border-radius: 20px;
+    color: #f69323;
+    font-size: 17px;
+    font-weight: 600;
+}
+.text-black-reg{
+  color: #565656;
+}
+.text-black-registe {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
